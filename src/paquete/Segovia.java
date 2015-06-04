@@ -4,6 +4,11 @@ public class Segovia {
 	private int i;
 	private String cadena;
 
+	@Override
+	public String toString() {
+		return "Segovia [i=" + i + ", cadena=" + cadena + "]";
+	}
+
 	public String getCadena() {
 		return cadena;
 	}
